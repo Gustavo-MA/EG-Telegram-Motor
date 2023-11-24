@@ -1,0 +1,23 @@
+[
+    {
+        "id": "86c67edb21d142fd",
+        "type": "function",
+        "z": "74a8ff61e76d1584",
+        "name": "function 4",
+        "func": "msg.payload=msg.payload.content;\nmsg.topic=\"audio\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "633bc307aec934e0",
+                "84018b7ddef71552",
+                "95d67e140c133da6"
+            ]
+        ]
+    }
+]
